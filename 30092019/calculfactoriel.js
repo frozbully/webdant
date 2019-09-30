@@ -1,6 +1,9 @@
 function factorielle(n){
-	//Compléter cette fonction
-	return (n);
+  var r=1;
+  for(i=1;i<=n;i++) {
+    r=r*i;
+  }
+	return (r);
 }
 
 function calcul() {
